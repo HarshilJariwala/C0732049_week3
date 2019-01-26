@@ -8,9 +8,15 @@ namespace C0732049
 {
     class Program
     {
-        static void Main(string[] args)
+        static void main(string[] arg)
         {
 
         }
+    }
+    class Node
+    {
+        Node PreviousNode;
+
+        Node NextNode;
     }
 }
