@@ -13,10 +13,32 @@ namespace C0732049
 
         }
     }
-    class Node
+    class Countryside
     {
-        Node PreviousNode;
 
-        Node NextNode;
     }
+
+    class village
+    {
+        village Previousvillage;
+
+        village Nextvillage;
+        string villageName;
+        public static void village() { }
+        bool isAstrildeHere = false;
+        public village() { }
+    }
+    class Alst
+    {
+
+    }
+    class schenig
+    {
+
+    }
+    class Maeland
+    {
+        
+    }
+
 }
